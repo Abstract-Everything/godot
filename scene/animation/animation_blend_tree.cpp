@@ -597,7 +597,7 @@ AnimationNodeAdd3::AnimationNodeAdd3() {
 /////////////////////////////////////////////
 
 void AnimationNodeBlend2::get_parameter_list(List<PropertyInfo> *r_list) const {
-	r_list->push_back(PropertyInfo(Variant::FLOAT, blend_amount, PROPERTY_HINT_RANGE, "0,1,0.01,or_less,or_greater"));
+	r_list->push_back(PropertyInfo(Variant::FLOAT, blend_amount, PROPERTY_HINT_RANGE, "0,1,0.01"));
 }
 
 Variant AnimationNodeBlend2::get_parameter_default_value(const StringName &p_parameter) const {
